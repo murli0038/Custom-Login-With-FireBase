@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>711703737864-3j5dj44mcpcok1k3vigkhvm8mmhc0kph.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.711703737864-3j5dj44mcpcok1k3vigkhvm8mmhc0kph</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmVKHNVqbhRt6EesZryqFYmaqvjzhxzac</string>
+	<key>GCM_SENDER_ID</key>
+	<string>711703737864</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Nikunj.CustomLoginWirhFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>customloginwithfirebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>customloginwithfirebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:711703737864:ios:3ea3cab0b58b6cef2b43bd</string>
+	<key>DATABASE_URL</key>
+	<string>https://customloginwithfirebase.firebaseio.com</string>
+</dict>
+</plist>

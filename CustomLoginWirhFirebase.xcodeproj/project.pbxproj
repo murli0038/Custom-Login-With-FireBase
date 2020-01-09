@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2503926323B7137800F3CC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503926223B7137800F3CC7B /* AppDelegate.swift */; };
+		2503926523B7137800F3CC7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503926423B7137800F3CC7B /* SceneDelegate.swift */; };
+		2503926723B7137800F3CC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503926623B7137800F3CC7B /* ViewController.swift */; };
+		2503926A23B7137800F3CC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2503926823B7137800F3CC7B /* Main.storyboard */; };
+		2503926D23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2503926B23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodeld */; };
+		2503926F23B7137900F3CC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2503926E23B7137900F3CC7B /* Assets.xcassets */; };
+		2503927223B7137900F3CC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2503927023B7137900F3CC7B /* LaunchScreen.storyboard */; };
+		2503927D23B7137900F3CC7B /* CustomLoginWirhFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503927C23B7137900F3CC7B /* CustomLoginWirhFirebaseTests.swift */; };
+		2503928823B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503928723B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.swift */; };
+		2503929623B713F500F3CC7B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503929523B713F500F3CC7B /* SignUpViewController.swift */; };
+		2503929823B7140400F3CC7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503929723B7140400F3CC7B /* LoginViewController.swift */; };
+		253B46C823B71968005F77E5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253B46C723B71968005F77E5 /* Utilities.swift */; };
+		2592D8BD23B728B600A699E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2592D8BC23B728B600A699E5 /* GoogleService-Info.plist */; };
+		75076E450A3232F6C59FFBF2 /* Pods_CustomLoginWirhFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA231DC813F4153A9E838155 /* Pods_CustomLoginWirhFirebaseTests.framework */; };
+		A0C03BB5324BFCF5B8CCA67A /* Pods_CustomLoginWirhFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B680621F506B6883571AEBAE /* Pods_CustomLoginWirhFirebase.framework */; };
+		C784F220B4DE0C44D6F3AEC1 /* Pods_CustomLoginWirhFirebase_CustomLoginWirhFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28B1375C0DDD93A5D5F9535 /* Pods_CustomLoginWirhFirebase_CustomLoginWirhFirebaseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2503927923B7137900F3CC7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2503925723B7137800F3CC7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2503925E23B7137800F3CC7B;
+			remoteInfo = CustomLoginWirhFirebase;
+		};
+		2503928423B7137900F3CC7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2503925723B7137800F3CC7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2503925E23B7137800F3CC7B;
+			remoteInfo = CustomLoginWirhFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03252B662A99068ADDE59C5C /* Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2503925F23B7137800F3CC7B /* CustomLoginWirhFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLoginWirhFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2503926223B7137800F3CC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2503926423B7137800F3CC7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2503926623B7137800F3CC7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2503926923B7137800F3CC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2503926C23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomLoginWirhFirebase.xcdatamodel; sourceTree = "<group>"; };
+		2503926E23B7137900F3CC7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2503927123B7137900F3CC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2503927323B7137900F3CC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2503927823B7137900F3CC7B /* CustomLoginWirhFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLoginWirhFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2503927C23B7137900F3CC7B /* CustomLoginWirhFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginWirhFirebaseTests.swift; sourceTree = "<group>"; };
+		2503927E23B7137900F3CC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2503928323B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLoginWirhFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2503928723B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginWirhFirebaseUITests.swift; sourceTree = "<group>"; };
+		2503928923B7137900F3CC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2503929523B713F500F3CC7B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2503929723B7140400F3CC7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		253B46C723B71968005F77E5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2592D8BC23B728B600A699E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4537E27C792FD7EFCA3557C5 /* Pods-CustomLoginWirhFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoginWirhFirebase.debug.xcconfig"; path = "Target Support Files/Pods-CustomLoginWirhFirebase/Pods-CustomLoginWirhFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		500A881E8FE5083C598E4F69 /* Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85F2CFC5019E0E92E5CEFDF0 /* Pods-CustomLoginWirhFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoginWirhFirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-CustomLoginWirhFirebaseTests/Pods-CustomLoginWirhFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA391ECDA3AD616A30CA3EAD /* Pods-CustomLoginWirhFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoginWirhFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-CustomLoginWirhFirebaseTests/Pods-CustomLoginWirhFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		B680621F506B6883571AEBAE /* Pods_CustomLoginWirhFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomLoginWirhFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B1375C0DDD93A5D5F9535 /* Pods_CustomLoginWirhFirebase_CustomLoginWirhFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomLoginWirhFirebase_CustomLoginWirhFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D7AB0226335DD1FB912B98 /* Pods-CustomLoginWirhFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoginWirhFirebase.release.xcconfig"; path = "Target Support Files/Pods-CustomLoginWirhFirebase/Pods-CustomLoginWirhFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		EA231DC813F4153A9E838155 /* Pods_CustomLoginWirhFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomLoginWirhFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2503925C23B7137800F3CC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C03BB5324BFCF5B8CCA67A /* Pods_CustomLoginWirhFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2503927523B7137900F3CC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75076E450A3232F6C59FFBF2 /* Pods_CustomLoginWirhFirebaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2503928023B7137900F3CC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C784F220B4DE0C44D6F3AEC1 /* Pods_CustomLoginWirhFirebase_CustomLoginWirhFirebaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2503925623B7137800F3CC7B = {
+			isa = PBXGroup;
+			children = (
+				2503926123B7137800F3CC7B /* CustomLoginWirhFirebase */,
+				2503927B23B7137900F3CC7B /* CustomLoginWirhFirebaseTests */,
+				2503928623B7137900F3CC7B /* CustomLoginWirhFirebaseUITests */,
+				2503926023B7137800F3CC7B /* Products */,
+				385C318DF53C9BF847A92CE8 /* Pods */,
+				75541229CB20467A36825E13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2503926023B7137800F3CC7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2503925F23B7137800F3CC7B /* CustomLoginWirhFirebase.app */,
+				2503927823B7137900F3CC7B /* CustomLoginWirhFirebaseTests.xctest */,
+				2503928323B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2503926123B7137800F3CC7B /* CustomLoginWirhFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				253B46C923B71970005F77E5 /* Hepls in Project */,
+				2503926223B7137800F3CC7B /* AppDelegate.swift */,
+				2503926423B7137800F3CC7B /* SceneDelegate.swift */,
+				2503929B23B7142200F3CC7B /* View Controllers */,
+				2503926823B7137800F3CC7B /* Main.storyboard */,
+				2592D8BC23B728B600A699E5 /* GoogleService-Info.plist */,
+				2503926E23B7137900F3CC7B /* Assets.xcassets */,
+				2503927023B7137900F3CC7B /* LaunchScreen.storyboard */,
+				2503927323B7137900F3CC7B /* Info.plist */,
+				2503926B23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodeld */,
+			);
+			path = CustomLoginWirhFirebase;
+			sourceTree = "<group>";
+		};
+		2503927B23B7137900F3CC7B /* CustomLoginWirhFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2503927C23B7137900F3CC7B /* CustomLoginWirhFirebaseTests.swift */,
+				2503927E23B7137900F3CC7B /* Info.plist */,
+			);
+			path = CustomLoginWirhFirebaseTests;
+			sourceTree = "<group>";
+		};
+		2503928623B7137900F3CC7B /* CustomLoginWirhFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2503928723B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.swift */,
+				2503928923B7137900F3CC7B /* Info.plist */,
+			);
+			path = CustomLoginWirhFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		2503929B23B7142200F3CC7B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2503926623B7137800F3CC7B /* ViewController.swift */,
+				2503929523B713F500F3CC7B /* SignUpViewController.swift */,
+				2503929723B7140400F3CC7B /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		253B46C923B71970005F77E5 /* Hepls in Project */ = {
+			isa = PBXGroup;
+			children = (
+				253B46C723B71968005F77E5 /* Utilities.swift */,
+			);
+			path = "Hepls in Project";
+			sourceTree = "<group>";
+		};
+		385C318DF53C9BF847A92CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4537E27C792FD7EFCA3557C5 /* Pods-CustomLoginWirhFirebase.debug.xcconfig */,
+				D9D7AB0226335DD1FB912B98 /* Pods-CustomLoginWirhFirebase.release.xcconfig */,
+				500A881E8FE5083C598E4F69 /* Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.debug.xcconfig */,
+				03252B662A99068ADDE59C5C /* Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.release.xcconfig */,
+				85F2CFC5019E0E92E5CEFDF0 /* Pods-CustomLoginWirhFirebaseTests.debug.xcconfig */,
+				AA391ECDA3AD616A30CA3EAD /* Pods-CustomLoginWirhFirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75541229CB20467A36825E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B680621F506B6883571AEBAE /* Pods_CustomLoginWirhFirebase.framework */,
+				C28B1375C0DDD93A5D5F9535 /* Pods_CustomLoginWirhFirebase_CustomLoginWirhFirebaseUITests.framework */,
+				EA231DC813F4153A9E838155 /* Pods_CustomLoginWirhFirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2503925E23B7137800F3CC7B /* CustomLoginWirhFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2503928C23B7137900F3CC7B /* Build configuration list for PBXNativeTarget "CustomLoginWirhFirebase" */;
+			buildPhases = (
+				BA7A06181F369BDFA8F38498 /* [CP] Check Pods Manifest.lock */,
+				2503925B23B7137800F3CC7B /* Sources */,
+				2503925C23B7137800F3CC7B /* Frameworks */,
+				2503925D23B7137800F3CC7B /* Resources */,
+				D5F0286A8893F941A00DB7E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomLoginWirhFirebase;
+			productName = CustomLoginWirhFirebase;
+			productReference = 2503925F23B7137800F3CC7B /* CustomLoginWirhFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2503927723B7137900F3CC7B /* CustomLoginWirhFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2503928F23B7137900F3CC7B /* Build configuration list for PBXNativeTarget "CustomLoginWirhFirebaseTests" */;
+			buildPhases = (
+				8F8D040C79A9A0EAA2DBD6BE /* [CP] Check Pods Manifest.lock */,
+				2503927423B7137900F3CC7B /* Sources */,
+				2503927523B7137900F3CC7B /* Frameworks */,
+				2503927623B7137900F3CC7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2503927A23B7137900F3CC7B /* PBXTargetDependency */,
+			);
+			name = CustomLoginWirhFirebaseTests;
+			productName = CustomLoginWirhFirebaseTests;
+			productReference = 2503927823B7137900F3CC7B /* CustomLoginWirhFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2503928223B7137900F3CC7B /* CustomLoginWirhFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2503929223B7137900F3CC7B /* Build configuration list for PBXNativeTarget "CustomLoginWirhFirebaseUITests" */;
+			buildPhases = (
+				C920361B0D2A053FFBD169C8 /* [CP] Check Pods Manifest.lock */,
+				2503927F23B7137900F3CC7B /* Sources */,
+				2503928023B7137900F3CC7B /* Frameworks */,
+				2503928123B7137900F3CC7B /* Resources */,
+				12ECB853FD0565C5AA40B2DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2503928523B7137900F3CC7B /* PBXTargetDependency */,
+			);
+			name = CustomLoginWirhFirebaseUITests;
+			productName = CustomLoginWirhFirebaseUITests;
+			productReference = 2503928323B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2503925723B7137800F3CC7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nikunj Prajapati";
+				TargetAttributes = {
+					2503925E23B7137800F3CC7B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					2503927723B7137900F3CC7B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 2503925E23B7137800F3CC7B;
+					};
+					2503928223B7137900F3CC7B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 2503925E23B7137800F3CC7B;
+					};
+				};
+			};
+			buildConfigurationList = 2503925A23B7137800F3CC7B /* Build configuration list for PBXProject "CustomLoginWirhFirebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2503925623B7137800F3CC7B;
+			productRefGroup = 2503926023B7137800F3CC7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2503925E23B7137800F3CC7B /* CustomLoginWirhFirebase */,
+				2503927723B7137900F3CC7B /* CustomLoginWirhFirebaseTests */,
+				2503928223B7137900F3CC7B /* CustomLoginWirhFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2503925D23B7137800F3CC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503927223B7137900F3CC7B /* LaunchScreen.storyboard in Resources */,
+				2592D8BD23B728B600A699E5 /* GoogleService-Info.plist in Resources */,
+				2503926F23B7137900F3CC7B /* Assets.xcassets in Resources */,
+				2503926A23B7137800F3CC7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2503927623B7137900F3CC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2503928123B7137900F3CC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12ECB853FD0565C5AA40B2DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8D040C79A9A0EAA2DBD6BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomLoginWirhFirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7A06181F369BDFA8F38498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomLoginWirhFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C920361B0D2A053FFBD169C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F0286A8893F941A00DB7E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomLoginWirhFirebase/Pods-CustomLoginWirhFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomLoginWirhFirebase/Pods-CustomLoginWirhFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomLoginWirhFirebase/Pods-CustomLoginWirhFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2503925B23B7137800F3CC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503929823B7140400F3CC7B /* LoginViewController.swift in Sources */,
+				2503926723B7137800F3CC7B /* ViewController.swift in Sources */,
+				2503926323B7137800F3CC7B /* AppDelegate.swift in Sources */,
+				2503926523B7137800F3CC7B /* SceneDelegate.swift in Sources */,
+				2503926D23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodeld in Sources */,
+				253B46C823B71968005F77E5 /* Utilities.swift in Sources */,
+				2503929623B713F500F3CC7B /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2503927423B7137900F3CC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503927D23B7137900F3CC7B /* CustomLoginWirhFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2503927F23B7137900F3CC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503928823B7137900F3CC7B /* CustomLoginWirhFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2503927A23B7137900F3CC7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2503925E23B7137800F3CC7B /* CustomLoginWirhFirebase */;
+			targetProxy = 2503927923B7137900F3CC7B /* PBXContainerItemProxy */;
+		};
+		2503928523B7137900F3CC7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2503925E23B7137800F3CC7B /* CustomLoginWirhFirebase */;
+			targetProxy = 2503928423B7137900F3CC7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2503926823B7137800F3CC7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2503926923B7137800F3CC7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2503927023B7137900F3CC7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2503927123B7137900F3CC7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2503928A23B7137900F3CC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2503928B23B7137900F3CC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2503928D23B7137900F3CC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4537E27C792FD7EFCA3557C5 /* Pods-CustomLoginWirhFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomLoginWirhFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.CustomLoginWirhFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2503928E23B7137900F3CC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D7AB0226335DD1FB912B98 /* Pods-CustomLoginWirhFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomLoginWirhFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.CustomLoginWirhFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2503929023B7137900F3CC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F2CFC5019E0E92E5CEFDF0 /* Pods-CustomLoginWirhFirebaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomLoginWirhFirebaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.CustomLoginWirhFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomLoginWirhFirebase.app/CustomLoginWirhFirebase";
+			};
+			name = Debug;
+		};
+		2503929123B7137900F3CC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA391ECDA3AD616A30CA3EAD /* Pods-CustomLoginWirhFirebaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomLoginWirhFirebaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.CustomLoginWirhFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomLoginWirhFirebase.app/CustomLoginWirhFirebase";
+			};
+			name = Release;
+		};
+		2503929323B7137900F3CC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500A881E8FE5083C598E4F69 /* Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomLoginWirhFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.CustomLoginWirhFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomLoginWirhFirebase;
+			};
+			name = Debug;
+		};
+		2503929423B7137900F3CC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03252B662A99068ADDE59C5C /* Pods-CustomLoginWirhFirebase-CustomLoginWirhFirebaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomLoginWirhFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.CustomLoginWirhFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomLoginWirhFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2503925A23B7137800F3CC7B /* Build configuration list for PBXProject "CustomLoginWirhFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503928A23B7137900F3CC7B /* Debug */,
+				2503928B23B7137900F3CC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2503928C23B7137900F3CC7B /* Build configuration list for PBXNativeTarget "CustomLoginWirhFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503928D23B7137900F3CC7B /* Debug */,
+				2503928E23B7137900F3CC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2503928F23B7137900F3CC7B /* Build configuration list for PBXNativeTarget "CustomLoginWirhFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503929023B7137900F3CC7B /* Debug */,
+				2503929123B7137900F3CC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2503929223B7137900F3CC7B /* Build configuration list for PBXNativeTarget "CustomLoginWirhFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503929323B7137900F3CC7B /* Debug */,
+				2503929423B7137900F3CC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2503926B23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2503926C23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodel */,
+			);
+			currentVersion = 2503926C23B7137800F3CC7B /* CustomLoginWirhFirebase.xcdatamodel */;
+			path = CustomLoginWirhFirebase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2503925723B7137800F3CC7B /* Project object */;
+}
